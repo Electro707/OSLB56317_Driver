@@ -1288,7 +1288,7 @@
 		)
 		(fp_arc
 			(start 10.579676 25.189937)
-			(mid 10.35796 25.493961)
+			(mid 10.357946 25.493957)
 			(end 10 25.61)
 			(stroke
 				(width 0.12)
@@ -8819,7 +8819,7 @@
 		)
 		(model "${KIPRJMOD}/OSLB56317_CAD_Model-Body.step"
 			(offset
-				(xyz -40.259 -20.2565 10)
+				(xyz -40.259 -20.2565 5.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12896,6 +12896,39 @@
 	(dimension
 		(type aligned)
 		(layer "User.3")
+		(uuid "72f8d635-6c7d-4467-86cc-a6d45763bb7a")
+		(pts
+			(xy 61.734 118.084) (xy 65.734 118.084)
+		)
+		(height -4)
+		(gr_text "4.0000 mm"
+			(at 63.734 112.934 0)
+			(layer "User.3")
+			(uuid "72f8d635-6c7d-4467-86cc-a6d45763bb7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.3")
 		(uuid "83d29051-5f1c-4537-9a74-59adb99c9d88")
 		(pts
 			(xy 65.734 122.084) (xy 137.734 122.084)
@@ -12905,6 +12938,39 @@
 			(at 101.734 103.934 0)
 			(layer "User.3")
 			(uuid "83d29051-5f1c-4537-9a74-59adb99c9d88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.3")
+		(uuid "a1e207e3-fc89-494e-a015-c6404e54e20e")
+		(pts
+			(xy 61.734 118.084) (xy 61.734 122.084)
+		)
+		(height 7.75)
+		(gr_text "4.0000 mm"
+			(at 52.834 120.084 90)
+			(layer "User.3")
+			(uuid "a1e207e3-fc89-494e-a015-c6404e54e20e")
 			(effects
 				(font
 					(size 1 1)

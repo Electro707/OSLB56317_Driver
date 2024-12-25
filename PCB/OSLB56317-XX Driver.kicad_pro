@@ -504,7 +504,7 @@
       "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "OSLB56317-XX Driver.step",
       "svg": "",
       "vrml": ""
     },
