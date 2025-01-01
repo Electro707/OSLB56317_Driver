@@ -9,12 +9,16 @@ This project is to drive the OSLB56317 16x16 LED matrix I got from my trip to Ja
     - todo: make this a PIO block, or even a PIO block to drive the entire display?
 - In the CAD file, there is no easy way to take it apart other than pushing a small flat head between the display and the case. With PLA, the case is maluable enough to bend
     - todo: add some small slot eventually to be able to easily remove the display assembly
-
+- In the schematic, the columns and row new names should be swapped (don't ask how that happened), but this has no effects on functionality
+    
 # todo, maybe
-- Develop a PIO block for the LED matrix
-- Create more fun demo codes (animation?)
-- Create a USB audio spectrum analyzer
+- [ ] Develop a PIO block for the LED matrix
+- [ ] Create more fun demo codes (animation?)
+- [x] Create a USB audio spectrum analyzer
 
 # License
-This project is licensed under GPLv3. See [LICENSE.md](LICENSE.md) for details.
+This project, except for the external [Firmware_FFT/Adafruit_ZeroFFT](Firmware_FFT/Adafruit_ZeroFFT), is licensed under GPLv3. See [LICENSE.md](LICENSE.md) for details.
+
+# Credit
+A fork of [Adafruit's ZeroFFT library, by donmccoy](https://github.com/donmccoy/Adafruit_ZeroFFT/tree/bugfix), was used in this project, and that is licensed under BSD-3
 

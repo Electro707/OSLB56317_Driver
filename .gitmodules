@@ -1,0 +1,3 @@
+[submodule "Firmware_FFT/Adafruit_ZeroFFT"]
+	path = Firmware_FFT/Adafruit_ZeroFFT
+	url = https://github.com/adafruit/Adafruit_ZeroFFT.git
