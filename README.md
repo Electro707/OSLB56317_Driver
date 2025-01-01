@@ -10,6 +10,8 @@ This project is to drive the OSLB56317 16x16 LED matrix I got from my trip to Ja
 - In the CAD file, there is no easy way to take it apart other than pushing a small flat head between the display and the case. With PLA, the case is maluable enough to bend
     - todo: add some small slot eventually to be able to easily remove the display assembly
 - In the schematic, the columns and row new names should be swapped (don't ask how that happened), but this has no effects on functionality
+- In `Firmware_FFT`, every now and then the main loop will unexpectantly stop, randomly
+    - todo: attach debugger and see what causes this crash, probably some incorrect memory indexing
     
 # todo, maybe
 - [ ] Develop a PIO block for the LED matrix
