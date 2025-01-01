@@ -7,6 +7,8 @@
 
 #define BLEED_VALUE 2       // how many segments to subtract per cycle, a cycle being when we get FFT_SIZE audio data (~6mS)
 
+#define FFT_BIN_SHIFT 5     // after binning the FFT, how much to right-shift the result by
+
 // pin definitions
 #define PIN_SCK     21
 #define PIN_DATA    20

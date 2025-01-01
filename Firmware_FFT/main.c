@@ -36,9 +36,9 @@ int main()
 
     gpio_put(PIN_LATCH, 0);
     gpio_put(PIN_OE, 1);
+
     gpio_set_dir(PIN_LATCH, GPIO_OUT);
     gpio_set_dir(PIN_OE, GPIO_OUT);
-
     gpio_set_dir(PIN_DATA, GPIO_OUT);
     gpio_set_dir(PIN_SCK, GPIO_OUT);
 

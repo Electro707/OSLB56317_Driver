@@ -4,6 +4,13 @@ This project is to drive the OSLB56317 16x16 LED matrix I got from my trip to Ja
 
 ![Image](.misc/img1.jpeg)
 
+# Project Structure
+- `CAD`: FreeCAD Source file for enclosure
+- `Firmware_Demo`: A quick demo firmware to get the display up and running
+- `Firmware_FFT`: Firmware to display an audio spectrograph from a USB host
+    - The firmware will act as a USB speaker, which audio must be routed to it
+- `PCB`: KiCAD PCB source files
+
 # Known Issues
 - I goofed up on the RP2040's SPI wiring to the constant current led driver, so for now it is emulated in software
     - todo: make this a PIO block, or even a PIO block to drive the entire display?

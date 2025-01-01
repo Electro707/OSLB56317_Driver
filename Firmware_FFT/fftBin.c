@@ -1,4 +1,5 @@
 #include "fftBin.h"
+#include "defines.h"
 
 // generated with `misc_tools/calc_freq_div.py`
 const q15_t fftBinMult[16][256] = {
@@ -49,7 +50,7 @@ void binFFT(q15_t *fftIn, uint16_t *segOut){
             
         }while(binMultCurr != 0);
 
-        segVal >>= 5;
+        segVal >>= FFT_BIN_SHIFT;
         if(segVal > 255){
             segVal = 255;
         }
