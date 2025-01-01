@@ -54,7 +54,8 @@ target_link_libraries(Firmware_Demo
 target_sources(Firmware_Demo PUBLIC
     ${CMAKE_CURRENT_LIST_DIR}/main.c
     ${CMAKE_CURRENT_LIST_DIR}/usb_descriptors.c
-    ${CMAKE_CURRENT_LIST_DIR}/melScale.c
+    ${CMAKE_CURRENT_LIST_DIR}/usbHandler.c
+    ${CMAKE_CURRENT_LIST_DIR}/fftBin.c
     ${CMAKE_CURRENT_LIST_DIR}/Adafruit_ZeroFFT/arm_common_tables.c
     ${CMAKE_CURRENT_LIST_DIR}/Adafruit_ZeroFFT/fftwindows.c
     ${CMAKE_CURRENT_LIST_DIR}/Adafruit_ZeroFFT/fftutil.c

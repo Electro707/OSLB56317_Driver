@@ -3,6 +3,6 @@
 
 #include "Adafruit_ZeroFFT.h"
 
-void melScaleFftNormalize(q15_t *fftIn, uint16_t *segOut);
+void binFFT(q15_t *fftIn, uint16_t *segOut);
 
 #endif
